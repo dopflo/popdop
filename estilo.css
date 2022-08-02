@@ -1,0 +1,45 @@
+body {
+    background:url(img/nueva.jpg.jpg);
+    background-repeat:no-repeat;
+ }
+p {
+    font-family: Monospace;
+    display: flex;
+    margin: 60px;
+    color:rgb(255, 255, 255);
+    align-items: center;   
+    z-index: 99;
+}
+p2 {
+    font-family: Monospace;
+    display: flex;
+    margin: 60px;
+    color:rgb(255, 255, 255);
+    align-items: center;   
+    z-index: 99;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+h1 {
+    font-family: Monospace;
+    display: flex;
+    margin: 60px;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    z-index: 99;
+}
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
